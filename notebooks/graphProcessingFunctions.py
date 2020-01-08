@@ -27,4 +27,3 @@ def compute_number_connected_components(lamb: np.array, threshold: float):
         n_components (int): number of connected components.
     """
     return np.count_nonzero(lamb <= threshold)
-
