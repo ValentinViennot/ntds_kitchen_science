@@ -1,29 +1,29 @@
-# A Network Tour of Kitchen Science: innovative ingredient replacer using ingredients/recipes dataset
+# A Network Tour of Kitchen Science: Innovative Ingredient Replacer using Network Science
 Network Tour of Data Science, Fall 2019, EPFL
 
 ## Context
 
-Have you ever invited vegetarian / vegan friends coming over for diner and didn't know how to replace the meat in your favorite dish? Or had to prepare food for dinner with your in-laws and a crucial ingredient suddently has disapeared from your kitchen? Or wanted your gf/bf to taste the only recipe you know well but she/he's allergic to one of the ingredients? **This project is for you.**
+Have you ever invited vegetarian / vegan friends over for diner and didn't know how to replace the meat in your favorite dish? Or you had to prepare food for dinner with your in-laws and a crucial ingredient suddently has disapeared from your kitchen? Or you wanted your significant other to taste the only recipe you know well but they are allergic to one of the ingredients? **This project is for you!**
 
-In the context of the EPFL Network Tour of Data Science course (Fall 2019), we proposed to create a **tool to remove certain ingredients from a recipe and output the best ingredients to replace them**.
-Our data was the Recipe1M+ dataset containing over one million recipes from various cooking websites, including ingredients, nutrition facts, preparation instructions, and health scores.
+In the context of the EPFL Network Tour of Data Science course (Fall 2019), we proposed to create a **tool to remove certain ingredients from a recipe and output the best ingredients to replace them, and suggest ingredients to add to make your recipes even tastier**.
+Our data comes from the Recipe1M+ dataset -- containing over 50,000 recipes from various cooking websites, including ingredients, nutrition facts, preparation instructions, and health scores -- as well as the USDA Nutritional Info dataset.
 
 ## Project structure
 
-- `data`: contains needed data to execute all notebooks independently (adjacency matrices, dataset...). *Warning: main dataset is too big for a github upload and needs to be downloaded separately, please refer to 'How to get started' section.*
+- `data`: contains needed data to execute all notebooks independently (adjacency matrices, dataset...). *Warning: the main dataset is too big for a Github upload and needs to be downloaded separately, please refer to the 'How to get started' section.*
 
-- `graphics`: graph visualizations saved from [GraphCommunities.ipynb](notebooks/03_GraphCommunities.ipynb) notebook, useful to zoom in and see more details than in Jupyter interface.
+- `graphics`: graph visualizations saved from [GraphCommunities.ipynb](notebooks/03_GraphCommunities.ipynb) notebook, useful to zoom in and see more details than in the Jupyter interface.
 
-- `notebooks`: all the code ordered (numeroted) in a comprehensive and readable way.
-  1. [CreateAdjacencyMatrices.ipynb](notebooks/01_CreateAdjacencyMatrices.ipynb): Explore dataset, combine it with other data sources (USDA database for nutrition information), create different adjacency matrices using given data and combinations. Trying to obtain desirable properties (connected graph, sparse matrix, uniform degree distribution...)
+- `notebooks`: all the code ordered (numerated) in a comprehensive and readable way.
+  1. [CreateAdjacencyMatrices.ipynb](notebooks/01_CreateAdjacencyMatrices.ipynb): Explore the dataset, combine it with other data sources (USDA database for nutrition information), create different adjacency matrices using given data and combinations. Trying to obtain desirable properties (connected graph, sparse matrix, uniform degree distribution...)
 
-  2. [StudyingGraphProperties.ipynb](notebooks/02_StudyingGraphProperties.ipynb): For each adjacency matrix obtained in notebook (1), study some insightful graph properties such as number of nodes, number of edges, number of connected components, network diameter, sparsity, hub nodes/ingredients...
+  2. [StudyingGraphProperties.ipynb](notebooks/02_StudyingGraphProperties.ipynb): For each adjacency matrix obtained in notebook (1), study some insightful graph properties such as the number of nodes, number of edges, number of connected components, network diameter, sparsity, hub nodes/ingredients...
 
   3. [GraphCommunities.ipynb](notebooks/03_GraphCommunities.ipynb): Visualize and compare different graph options from previously built adjacency matrices.
 
   4. [GraphFiltering.ipynb](notebooks/04_GraphFiltering.ipynb): Project a recipe over the ingredient graph and do label propagation with graph filtering (smoothing).
 
-  5. [kNNIngredientReplacement.ipynb](notebooks/05_kNNIngredientReplacement.ipynb): Find ingredient replacements from different graphs with kNN algorithm.
+  5. [kNNIngredientReplacement.ipynb](notebooks/05_kNNIngredientReplacement.ipynb): Find ingredient replacements from different graphs with a version of the kNN algorithm.
 
   6. [Veganize.ipynb](notebooks/06_Veganize.ipynb): Same as notebook (6) using a mask for vegan ingredients, achieving one of our main motivations.
 
@@ -63,7 +63,7 @@ The [required file](https://drive.google.com/open?id=1LFu2qxOlWYR3_07LvQYe_ydS3n
 
 ### Playing with the notebooks!
 
-> All notebooks might be executed independently however we recommend to follow the numerotation (from 1 to 7). Notebooks are saved with their execution to save you some time and to direct visualization from github repository.
+> All notebooks may be executed independently. However, we recommend to follow the order (from 1 to 7) to ensure that all of the necessary files are created in the first notebooks. Notebooks are saved with their execution to save you some time and to direct visualization from github repository.
 
 ## Authors
 - Maraz Zuniga, Erick Antero
