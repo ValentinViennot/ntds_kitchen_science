@@ -104,7 +104,6 @@ venv.bak/
 .mypy_cache/
 
 #data
-*.npy
 full_database/
 fixed_database/
 *.json
