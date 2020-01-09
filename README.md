@@ -3,7 +3,7 @@ Network Tour of Data Science, Fall 2019, EPFL
 
 ## Context
 
-Have you ever invited vegetarian / vegan friends coming over for diner and didn't know how to replace the meat in your favorite dish? Or had to prepare food for dinner with your in-laws and a crucial ingredient suddently has disapeared from your kitchen? Or wanted your gf/bf to taste the only dish you know how to cook well but she/he's allergic to one of the ingredients? **This project is for you.**
+Have you ever invited vegetarian / vegan friends coming over for diner and didn't know how to replace the meat in your favorite dish? Or had to prepare food for dinner with your in-laws and a crucial ingredient suddently has disapeared from your kitchen? Or wanted your gf/bf to taste the only recipe you know well but she/he's allergic to one of the ingredients? **This project is for you.**
 
 In the context of the EPFL Network Tour of Data Science course (Fall 2019), we proposed to create a **tool to remove certain ingredients from a recipe and output the best ingredients to replace them**.
 Our data was the Recipe1M+ dataset containing over one million recipes from various cooking websites, including ingredients, nutrition facts, preparation instructions, and health scores.
