@@ -58,7 +58,7 @@ Because of github size limitations, we have uploaded the full dataset **needed f
 python3 download_dataset.py
 ```
 
-The required file will then be downloaded to `data/recipes_with_nutritional_info_fixed_qty.json`.
+The [required file](https://drive.google.com/open?id=1LFu2qxOlWYR3_07LvQYe_ydS3nkinK4S) will then be downloaded to `data/recipes_with_nutritional_info_fixed_qty.json`.
 
 
 ### Playing with the notebooks!
