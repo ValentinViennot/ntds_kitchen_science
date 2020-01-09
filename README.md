@@ -40,7 +40,7 @@ Our data was the Recipe1M+ dataset containing over one million recipes from vari
 
 To run python scripts (we recommend using `venv`):
 ```bash
-pip install -r requirements.txt # install dependencies if needed, using python 
+pip3 install -r requirements.txt # install dependencies if needed, using python3
 ```
 
 To install/activate conda environment:
