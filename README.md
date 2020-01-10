@@ -8,6 +8,9 @@ Have you ever invited vegetarian / vegan friends over for diner and didn't know 
 In the context of the EPFL Network Tour of Data Science course (Fall 2019), we proposed to create a **tool to remove certain ingredients from a recipe and output the best ingredients to replace them, and suggest ingredients to add to make your recipes even tastier**.
 Our data comes from the Recipe1M+ dataset -- containing over 50,000 recipes from various cooking websites, including ingredients, nutrition facts, preparation instructions, and health scores -- as well as the USDA Nutritional Info dataset.
 
+## [Live Demo](http://kitchen-science.eu-gb.mybluemix.net/)
+Quick and minimalistic demo UI to show our final results - *Provided without any warranty and subject to updates until the final project presentation date.*
+
 ## Project structure
 
 - `data`: contains needed data to execute all notebooks independently (adjacency matrices, dataset...). *Warning: the main dataset is too big for a Github upload and needs to be downloaded separately, please refer to the 'How to get started' section.*
