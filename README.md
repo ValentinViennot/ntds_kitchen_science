@@ -9,7 +9,11 @@ In the context of the EPFL Network Tour of Data Science course (Fall 2019), we p
 Our data comes from the Recipe1M+ dataset -- containing over 50,000 recipes from various cooking websites, including ingredients, nutrition facts, preparation instructions, and health scores -- as well as the USDA Nutritional Info dataset.
 
 ## [Live Demo](http://kitchen-science.eu-gb.mybluemix.net/)
-Quick and minimalistic demo UI to show our final results - *Provided without any warranty and subject to updates until the final project presentation date.*
+Quick and minimalistic demo UI to show our final results.
+
+![Home](./docs/home-ui.png)
+![Chicken replacement suggestions](./docs/suggestions-chicken-ui.png)
+![Smoothie suggestions](./docs/suggestions-smoothie-ui.png)
 
 ## Project structure
 
